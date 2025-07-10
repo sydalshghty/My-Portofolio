@@ -18,8 +18,8 @@ import imgProfile from "../assets/Profile photo.svg";
 import "../css/homeContent.css";
 import { Link } from "react-router-dom";
 import buttonEmail from "../assets/Button.svg";
-import { motion } from "motion/react";
-import { useState,useEffect } from "react";
+//import { motion } from "motion/react";
+//import { useState,useEffect } from "react";
 
 function HomeContent(){
     const h1 = `<h1>`;
@@ -31,10 +31,7 @@ function HomeContent(){
         <div className="homeContent-Departament">
             <div className="container">
                 <div className="developer-col">
-                    <motion.div 
-                    initial={{x: -100, opacity: 0}}
-                    animate={{x: 0, opacity: 1}}
-                    transition={{duration: 0.8, delay: 0.4}}
+                    <div 
                     className="account-col">
                         <div className="col-one">
                             <img src={imgGrid} alt="icon-Grid"/>
@@ -54,19 +51,13 @@ function HomeContent(){
                         <div>
                             <img src={imgEmail} alt="icon-Email"/>
                         </div>
-                    </motion.div>
-                    <motion.div 
-                    initial={{x: -150, opacity: 0}}
-                    animate={{x: 0, opacity: 1}}
-                    transition={{duration: 0.8, delay: 0.4}}
+                    </div>
+                    <div 
                     className="heading-developer">
                         <img src={imgdeveloper}/>
-                    </motion.div>
+                    </div>
                 </div>
-                <motion.div 
-                initial={{x: 100, opacity: 0}}
-                animate={{x: 0, opacity: 1}}
-                transition={{duration: 1, delay: 0.4}}
+                <div 
                 className="content-col">
                     <div 
                     className="content-information">
@@ -101,7 +92,7 @@ function HomeContent(){
                             <img src={imgReact} alt="img-React"/>
                         </div>
                         <div className="download-CV">
-                            <Link target="_blank" to={"https://drive.google.com/file/d/110h4ZiweLWlCg-iQKLfd8zZjnueNvKrQ/view?usp=sharing"}>Download CV</Link>
+                            <Link target="_blank" to={"https://drive.google.com/file/d/19MBjhA1nGhRmpwOmfpaa9fC-Zv5mXfQB/view?usp=sharing"}>Download CV</Link>
                             <img src={imgDownload} alt="download"/>
                         </div>
                     </div>
@@ -144,7 +135,7 @@ function HomeContent(){
                             </div>
                         </div>
                     </div>
-                </motion.div>
+                </div>
             </div>
         </div>
     )

@@ -65,7 +65,7 @@ function WorksDepartament(){
                                 <div>
                                     <div className="content-website">
                                         <div className="view-website">
-                                            <Link to={"https://e-commerce-excluisve.netlify.app/"} target="_blank">view Website</Link>
+                                            <Link to={"https://sydalshghty.github.io/e-commerce-app/"} target="_blank">view Website</Link>
                                             <img src={iconmouse} alt="img-mouse"/>
                                         </div>
                                         <div className="images-website">
@@ -73,21 +73,6 @@ function WorksDepartament(){
                                             <div className="col-img">
                                                 <img className="Coding-img" src={imgCoding} alt="img-coding"/>
                                                 <img className="Website-img" src={ExcluisveImg} alt="img-website"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className="content-website">
-                                        <div className="view-website">
-                                            <Link to={"https://sydalshghty.github.io/website-united-hanger/"} target="_blank">view Website</Link>
-                                            <img src={iconmouse} alt="img-mouse"/>
-                                        </div>
-                                        <div className="images-website">
-                                            <img className="dualScreen-img" src={dualScreen} alt="main-img"/>
-                                            <div className="col-img">
-                                                <img className="Coding-img" src={imgCoding} alt="img-coding"/>
-                                                <img className="Website-img united-website" src={UnitedWebsite} alt="img-website"/>
                                             </div>
                                         </div>
                                     </div>
