@@ -1,0 +1,199 @@
+.skills-departament{
+    width: 100%;
+    height: 1080px;
+    position: relative;
+}
+.skills-departament .skills-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.skills-departament .container{
+    position: absolute;
+    top: 0;
+    padding: 128px 128px;
+    width: 100%;
+    height: 100%;
+}
+.skills-departament .container .col-skills{
+    position: relative;
+    width: 100%;
+}
+.skills-departament .container .col-skills .skills-Title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-departament .container .col-skills .skills-Title .img-scroll{
+    margin-bottom: 30px;
+}
+.skills-departament .container .col-skills .skills-Title .col-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-departament .container .col-skills .skills-Title .col-title .img-title,
+.skills-departament .container .col-skills .skills-Title .col-title .img-line{
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.skills-departament .container .col-skills .skills-Title .col-title p{
+    color: var(--color-white);
+}
+.skills-departament .container .col-skills .img-tag{
+    position: absolute;
+    width: 225px;
+    height: 193px;
+    right: 17%;
+    top: 0;
+}
+.skills-departament .container .content-Development{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.skills-departament .container .content-Development .web-development,
+.skills-departament .container .content-Development .app-development{
+    width: 296px;
+    height: 132px;
+    background-color: var(--brand-color2);
+    padding: 16px 24px;
+    border-radius: 4px;
+    text-align: center;
+    border-left: 8px solid var(--css-color);
+    margin-right: 128px;
+}
+.skills-departament .container .content-Development .app-development{
+    margin-right: 0;
+}
+.skills-departament .container .content-Development .web-development img,
+.skills-departament .container .content-Development .app-development img{
+    margin-bottom: 8px;
+}
+.skills-departament .container .content-Development .web-development h3,
+.skills-departament .container .content-Development .app-development h3{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.skills-departament .container .content-Development .web-development p,
+.skills-departament .container .content-Development .app-development p{
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.skills-departament .container .content-Development .app-development{
+    
+}
+.skills-departament .container .content-Development .app-development img{
+
+}
+.skills-departament .container .content-Development .app-development h3{
+
+}
+.skills-departament .container .content-Development .app-development p{
+
+}
+.skills-departament .container .content-skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.skills-departament .container .content-skills .Html-Css,
+.skills-departament .container .content-skills .JS-React{
+    display: flex;
+}
+.skills-departament .container .content-skills .Html-Css{
+    margin-right: 128px;
+}
+.skills-departament .container .content-skills .col-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 128px;
+}
+.skills-departament .container .content-skills .col-img:last-child{
+    margin-right: 0;
+}
+.skills-departament .container .content-skills .col-img img{
+    width: fit-content;
+    height: 100%;
+}
+.skills-departament .container .content-skills .col-img img:first-child{
+    margin-bottom: 20px;
+}
+.skills-departament .container .content-skills .col-img:last-child{
+
+}
+@media (max-width: 1200px){
+    .skills-departament .container .content-skills .col-img,
+    .skills-departament .container .content-skills .Html-Css{
+        margin-right: 100px;
+    }
+    .skills-departament .container .col-skills .img-tag{
+        right: 40px;
+    }
+}
+@media (max-width: 992px){
+    .skills-departament{
+        height: 990px;
+    }
+    .skills-departament .container{
+        padding: 64px 64px;
+    }
+    .skills-departament .container .content-skills{
+        flex-direction: column;
+    }
+    .skills-departament .container .content-skills .Html-Css{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .skills-departament .container .content-Development .web-development{
+        margin-right: 64px;
+    }
+    .skills-departament .container .col-skills .skills-Title .img-scroll,
+    .skills-departament .container .col-skills .img-tag{
+        display: none;
+    }
+    .skills-departament .container .content-skills{
+        flex-wrap: wrap;
+    } 
+}
+@media (max-width: 768px){
+    .skills-departament{
+        height: 1110px;
+    }
+    .skills-departament .container{
+        padding: 64px 24px;
+    }
+    .skills-departament .container .content-Development{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-departament .container .content-Development .web-development{
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    .skills-departament .container .content-skills .Html-Css img:first-child,
+    .skills-departament .container .content-skills .JS-React img:first-child{
+        width: 112px;
+        height: 112px;
+    }
+}
+@media (max-width: 600px){
+    .skills-departament .container .col-skills .skills-Title .col-title p{
+        text-align: center;
+    }
+}
