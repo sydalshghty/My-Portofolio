@@ -18,8 +18,6 @@ import imgProfile from "../assets/Profile photo.svg";
 import "../css/homeContent.css";
 import { Link } from "react-router-dom";
 import buttonEmail from "../assets/Button.svg";
-//import { motion } from "motion/react";
-//import { useState,useEffect } from "react";
 
 function HomeContent(){
     const h1 = `<h1>`;
